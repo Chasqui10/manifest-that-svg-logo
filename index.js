@@ -1,3 +1,3 @@
-const { createSvgLogo }  =  require ( './lib/svg.js' ) ;
+const SVG  =  require ( './lib/svg.js' ) ;
 
-createSvgLogo();
+new SVG().run();
